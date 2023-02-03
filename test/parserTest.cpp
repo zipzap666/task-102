@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <memory>
-#include "../parser/parserTools.h"
-#include "../proto/message.pb.h"
+#include "../src/parser/parserTools.hpp"
+#include "../src/proto/message.pb.h"
 
 #if GOOGLE_PROTOBUF_VERSION >= 3012004
 #define PROTOBUF_MESSAGE_BYTE_SIZE(message) ((message).ByteSizeLong())

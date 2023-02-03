@@ -1,3 +1,6 @@
+## run:
+	./build.sh
+
 # Старый репозиторий со всеми коммитами:
   https://github.com/zipzap666/task-102-old
 
